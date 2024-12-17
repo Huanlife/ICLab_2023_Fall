@@ -7,4 +7,3 @@
 #### Mode1 & 2: 由於此兩種模式均需要重複使用多次乘加運算，因此利用pipeline的概念，規劃出在不同cycle將訊號送進同1個硬體當中，並共用給兩種Mode使用，用以節省面積。  
 ### ● 待優化事項  
 #### Mode0 與 Mode1&2的reg和wire還可以繼續做硬體共用，另外除法與餘數運算可以透過Call Design ware IP的方式同時計算出來，不必分開運算。  
-### ● RTL Simulation Result
