@@ -1,5 +1,13 @@
+### ● Description  
+#### 本次Lab的計算均為IEEE754 floating number format，因此會大量使用designware IP，讓電路有較好的PPA。本次Lab要將輸入的兩張照片完成以下運算:
+#### (a)依輸入訊號做Replication / Zero Padding
+#### (b)RGB三個通道分別做Convolution並相加獲得Feature Map
+#### (c)對Feature Map做Max-pooling，再跟weight matrix做矩陣乘法，完成Fully Connected
+#### (d)做Normalization使數值介於0~1，再乘上Activation Function，有Sigmoid與Tanh兩種激活函數
+#### (e)算出兩張照片的Manhattan distance並輸出
 #### Performance = Area * Computation time
 #### Coputation time = Latency * clock cycle time
+===============================
 ### ● my   
 #### clock cycle time = 50 ns  
 #### Area =  567975.503269
