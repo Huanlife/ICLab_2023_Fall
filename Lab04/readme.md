@@ -1,5 +1,5 @@
 ### ● Description  
-#### 本次Lab的計算均為IEEE754 floating number format，因此會大量使用designware IP，讓電路有較好的PPA。本次Lab要將輸入的兩張照片完成以下運算:
+#### 本次Lab的計算均為IEEE754 floating number format，因此會使用較多的designware IP，讓電路有較好的PPA。本次Lab要將輸入的兩張照片完成以下運算:
 #### (a)依輸入訊號做Replication / Zero Padding
 #### (b)RGB三個通道分別做Convolution並相加獲得Feature Map
 #### (c)對Feature Map做Max-pooling，再跟weight matrix做矩陣乘法，完成Fully Connected
