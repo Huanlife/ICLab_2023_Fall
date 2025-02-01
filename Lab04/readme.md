@@ -7,7 +7,7 @@
 #### (e)算出兩張照片的Manhattan distance並輸出
 #### Performance = Area * Computation time
 #### Coputation time = Latency * clock cycle time
-****
+*****
 ### ● my   
 #### clock cycle time = 50 ns  
 #### Area =  567975.503269
